@@ -5,10 +5,11 @@
 ```
 
 opencv-python
+numpy
 
 ```
 
-numpy
+
 
 # USAGE
 
