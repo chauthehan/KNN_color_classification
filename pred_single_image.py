@@ -74,7 +74,7 @@ with open('training.data') as csvfile:
         training_feature_vector.append(dataset[x])
 # read the test image
 img = cv2.imread(sys.argv[1])
-
+img = cv2.resize(img, (100, 30))
 test_feature_vector = []  # test feature vector
 # get the prediction
 color_histogram_feature_extraction.color_histogram_of_test_image(img)
