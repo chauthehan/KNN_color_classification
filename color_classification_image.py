@@ -74,7 +74,7 @@ with open('training.data') as csvfile:
         training_feature_vector.append(dataset[x])
 
 while True:
-    for i in paths.list_images('/home/han/Documents/ocr/result/white'):
+    for i in paths.list_images('/home/iwanna/Documents/KNN_color_classification/training_dataset/white'):
         img = cv2.imread(i)
         test_feature_vector = []  # test feature vector
     # get the prediction
